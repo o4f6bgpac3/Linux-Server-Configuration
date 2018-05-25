@@ -14,6 +14,16 @@
 ## Create .wsgi file
 ## Create apache2 config file
 
+# Summary of installed software:
+## libapache2-mod-wsgi-py3
+## python-psycopg2
+## python-flask
+## python-sqlalchemy
+## python-pip
+## oauth2client
+## requests
+## httplib2
+
 # Third Party Resources:
 ## http://modwsgi.readthedocs.io/en/develop/user-guides/virtual-environments.html
 ## https://github.com/jrleszcz/linux-server-setup/blob/master/how-to/configure-firewall-and-change-ssh-port.md
