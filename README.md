@@ -23,6 +23,7 @@
 ## oauth2client
 ## requests
 ## httplib2
+## git
 
 # Third Party Resources:
 ## http://modwsgi.readthedocs.io/en/develop/user-guides/virtual-environments.html
