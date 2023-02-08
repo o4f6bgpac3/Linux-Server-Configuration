@@ -17,6 +17,7 @@ On Server:
 - Change Port to 2200
   Ensure 'PasswordAuthentication yes' is not commented out
   Ensure 'PermitRootLogin no' is not commented out
+  Add 'AllowUsers remote'
   Save file and exit
 - 'sudo systemctl restart sshd'
 - 'sudo systemctl status firewalld'
