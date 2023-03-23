@@ -22,7 +22,7 @@ providers:
 certificatesResolvers:
   godaddy:
     acme:
-      email: REPLACE_ME_WITH_GODADDY_EMAIL_ADDRESS
+      email: GODADDYEMAIL
       storage: acme.json
       dnsChallenge:
         provider: godaddy
