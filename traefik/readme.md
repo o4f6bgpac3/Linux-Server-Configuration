@@ -20,6 +20,7 @@ ROOT_DOMAIN
 _Your domain (e.g. example.com)_
 
 `sudo yum install -y httpd-tools`
+
 `echo $(htpasswd -nb "admin" "REPLACE_ME_WITH_A_SECURE_PASSWORD") | sed -e s/\$/\$\$/g`
 BASIC_AUTH_USER_PASSWORD
 _For the authentication dialog when you visit the dashboard, see below how to generate_
@@ -37,8 +38,10 @@ echo $(htpasswd -nb "admin" "REPLACE_ME_WITH_A_SECURE_PASSWORD") | sed -e s/\$/\
 
 ## Running Traefik
 - If everything worked well, you should be able to cd into the traefik directory that you specified in the first prompt, then run:
+
 `docker compose up -d`
 - Check everything has gone well with:
+
 `docker logs traefik`
 - Open a browser and navigate to the TRAEFIK_DOMAIN
 - A dialog should appear asking for credentials, these are what you specified in the BASIC_AUTH_USER_PASSWORD step
