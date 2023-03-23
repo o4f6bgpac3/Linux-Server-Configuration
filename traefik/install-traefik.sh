@@ -52,7 +52,7 @@ sudo sed -i "s/TRAEFIKDOMAIN/${escaped_traefikdomain}/g" $dir/.env
 sudo sed -i "s/ROOTDOMAIN/${escaped_rootdomain}/g" $dir/.env
 
 sudo chown -R root:docker $dir
-sudo chmod -R 664 $dir
+sudo chmod -R 774 $dir
 sudo chmod 600 $dir/acme.json
 
-echo "Success!"
+echo "Success! The SSL may take a couple of minutes to work. Type 'docker logs traefik' to check logs."
