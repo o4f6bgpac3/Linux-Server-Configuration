@@ -1,0 +1,9 @@
+#!/bin/bash
+# sudo chown root:root godaddy.txt
+# sudo chmod 600 godaddy.txt
+# sudo crontab -e 
+# 5 * * * * /srv/config/godaddy.sh
+
+Domain=''
+Key=''
+Secret=''
