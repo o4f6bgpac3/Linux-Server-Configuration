@@ -4,7 +4,7 @@
 domain=$Domain   # Your own domain name
 name="*"     # name of A record to update
 
-source ./godaddy.txt
+source /srv/config/godaddy.txt
 
 key=$Key     # Your own GoDaddy developer API Key See STEP 4
 secret=$Secret   # Your own GoDaddy developer API Secret Key See STEP 4

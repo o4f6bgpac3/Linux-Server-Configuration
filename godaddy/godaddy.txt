@@ -1,8 +1,12 @@
 #!/bin/bash
+# Place godaddy.sh and godaddy.txt in /srv/config
+# sudo chown root:root godaddy.sh
 # sudo chown root:root godaddy.txt
+# sudo chmod 744 godaddy.sh
 # sudo chmod 600 godaddy.txt
 # sudo crontab -e 
 # 5 * * * * /srv/config/godaddy.sh
+# (This will run the script at 5 past the hour, every hour of every day)
 
 Domain=''
 Key=''
