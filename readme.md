@@ -18,7 +18,12 @@ Additional containers have been placed in the containers folder to be used at wi
 All that's required is to create a directory somewhere, copy the docker-compose.yml and .env files there, adjust the .env to suit and run 'docker compose up -d'.
 Traefik will automatically* detect the new container and route the relevant traffic to it.
 
-* This is assuming they're on the same docker network and the docker-compose.yml has been set up correctly
+$\times$This is assuming they're on the same docker network and the docker-compose.yml has been set up correctly
+
+### GoDaddy
+
+This contains a script which updates the IP on your domain if you don't have a static IP.
+Follow comments in godaddy.txt for permissions and crontab setup.
 
 ## Sources
 
