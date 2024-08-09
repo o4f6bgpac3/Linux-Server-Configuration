@@ -22,8 +22,12 @@ Traefik will automatically* detect the new container and route the relevant traf
 
 ### GoDaddy
 
+This no longer works because GoDaddy has changed their API. I've left it here for reference but it's not usable.
+
+### Cloudflare
+
 This contains a script which updates the IP on your domain if you don't have a static IP.
-Follow comments in godaddy.txt for permissions and crontab setup.
+Follow comments in cloudflare.txt for permissions and crontab setup.
 
 ## Sources
 
@@ -32,6 +36,3 @@ As always, the internet is wealth of knowledge, but it's hard to navigate throug
 ### https://www.youtube.com/@TechnoTim
 
 TechnoTim has some great videos on homelab setups and is very easy to listen to.
-
-### https://chat.openai.com/chat?model=gpt-4
-GPT-4 is just out and it's incredible! You can just give it a failing yaml file and it fixes it for you, explaining where you went wrong!

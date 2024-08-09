@@ -1,0 +1,14 @@
+#!/bin/bash
+# Place cloudflare.sh and config.txt in /srv/config
+# sudo chown root:root cloudflare.sh
+# sudo chown root:root config.txt
+# sudo chmod 700 cloudflare.sh
+# sudo chmod 700 config.txt
+# sudo crontab -e 
+# 5 * * * * /srv/config/cloudflare.sh
+# (This will run the script at 5 past the hour, every hour of every day)
+
+ZONE_ID=your_cloudflare_zone_id
+RECORD_ID=your_cloudflare_record_id
+API_TOKEN=your_cloudflare_api_token
+DOMAIN=yourdomain.com

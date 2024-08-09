@@ -1,4 +1,8 @@
 #!/bin/bash
+# NOTE: THIS SCRIPT NO LONGER WORKS DUE TO GODADDY API CHANGES.
+# I'M LEAVING IT HERE FOR REFERENCE ONLY.
+# USE CLOUDFLARE INSTEAD.
+
 # This script checks and automatically updates your GoDaddy DNS "A" record server with your current IP address.
 # by Marius Bogdan Lixandru updated to make it work with Synology NAS for users with Dynamic IP.
 domain=$Domain   # Your own domain name
